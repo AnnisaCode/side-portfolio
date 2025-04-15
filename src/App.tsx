@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, ExternalLink, X } from 'lucide-react';
+import { Linkedin, ExternalLink, X } from 'lucide-react';
 import ProjectCarousel from './components/ProjectCarousel';
 import Modal from './components/Modal';
 import { Project } from './types';
@@ -21,21 +21,21 @@ function App() {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://linkedin.com/in/annisa"
+            href="https://linkedin.com/in/annisa1202"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors"
           >
             <Linkedin size={20} /> LinkedIn
           </a>
-          <a
+          {/* <a
             href="https://github.com/annisacode"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-full hover:bg-gray-900 transition-colors"
           >
             <Github size={20} /> GitHub
-          </a>
+          </a> */}
         </div>
       </header>
 
@@ -65,7 +65,7 @@ function App() {
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 text-center text-purple-600">
         <p className="mb-2">Made with love (and snacks) by Annisa 🍪</p>
-        <p className="text-sm">© 2025 Annisa – Still adding cool things here, come back later!</p>
+        <p className="text-sm">© 2025 AnnisaCode – Still adding cool things here, come back later!</p>
       </footer>
 
       {/* Modal */}
